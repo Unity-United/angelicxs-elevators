@@ -65,6 +65,55 @@ Config.Notify = {
 ]]
 
 Config.Elevators = {
+	MRPDElevator = {
+		{
+			coords = vector3(467.02, -976.26, 43.7), heading = 180.12, level = "Roof", label = "Roof Access.",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+			},
+		},
+		{
+			coords = vector3(465.67, -976.07, 39.42), heading = 91.4, level = "Floor 3", label = "Admin and Command Offices.",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(465.31, -975.99, 35.06), heading = 90.9, level = "Floor 2", label = "Breakroom and Lockers.",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(465.81, -975.8, 30.72), heading = 95.27, level = "Floor 1", label = "Holding and Reception.",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(467.06, -975.59, 25.47), heading = 184.1, level = "Floor 0", label = "Garage and Intake.",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+			},
+		},
+	},
 	SkybarElevatorSouth = {
 		{
 			coords = vector3(315.49, -929.32, 52.81), heading = 176.67, level = "Skybar 5th Floor", label = "Bar Level for Skybar",
