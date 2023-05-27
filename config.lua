@@ -15,7 +15,7 @@ Config.ElevatorWaitTime = 3					-- How many seconds until the player arrives at 
 Config.Notify = {
 	enabled = true,							-- Display hint notification?
 	distance = 3.0,							-- Distance from elevator that the hint will show
-	message = "Please select the elevator control key. The default key is LAlt unless you have customized it in the settings."	-- Text of the hint notification
+	message = "To utilize the elevator, press the LAlt key and direct your mouse cursor towards the floor within the game. This action will trigger the change floor dialog and allow you to select the desired floor for the elevator."	-- Text of the hint notification
 }
 
 --[[
@@ -111,6 +111,78 @@ Config.Elevators = {
 			jobs = {
 				["police"] = 0,
 				["ambulance"] = 0,
+			},
+		},
+	},
+	PillboxRightElevator = {
+		{
+			coords = vector3(335.78, -592.48, 43.27), heading = 241.8, level = "Roof", label = "Helipad Access",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["airline"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(335.78, -592.48, 43.27), heading = 63.4, level = "Floor 4", label = "General Practice",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["airline"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(323.47, -583.23, 28.85), heading = 247.92, level = "Floor 1", label = "Emergency Department",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+			},
+		},
+	},
+	PillboxLeftElevator = {
+		{
+			coords = vector3(312.85, -570.88, 90.61), heading = 345.03, level = "Roof", label = "Service Access",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["airline"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(337.09, -589.26, 43.27), heading = 68.4, level = "Floor 4", label = "General Practice",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
+				["airline"] = 0,
+				["press"] = 0,
+			},
+		},
+		{
+			coords = vector3(322.32, -586.59, 28.85), heading = 248.87, level = "Floor 1", label = "Emergency Department",
+			jobs = {
+				["police"] = 0,
+				["ambulance"] = 0,
+				["lawyer"] = 0,
+				["judge"] = 0,
+				["government"] = 0,
 			},
 		},
 	},
